@@ -6,6 +6,7 @@ cc_library(
     includes = ["./include"],
     visibility = ["//visibility:public"],
     deps = [
+        "@boringssl//:ssl",
         "@curl//:curl"
     ]
 )
